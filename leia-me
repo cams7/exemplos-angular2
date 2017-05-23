@@ -1,0 +1,26 @@
+Aula 01
+#1. Instalando o NPM
+sudo apt install python-software-properties
+curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+sudo apt update
+sudo apt upgrade
+sudo apt install nodejs
+sudo npm install npm -g
+node -v
+npm -v
+
+sudo add-apt-repository ppa:webupd8team/sublime-text-3
+sudo apt-get update 
+sudo apt-get install sublime-text-installer
+
+#2. Configurando o NPM na aplicação
+cd ~/Dev/Angular2/Youtube/Kazale_IT/Projetos/cursoangular2/angular2-aula1
+#npm init -y
+npm install
+
+#7. Compilando e executando a aplicação
+cd ~/Dev/Angular2/Youtube/Kazale_IT/Projetos/cursoangular2/angular2-aula1
+npm start
+#CTR-C
+cd ~/Dev/Angular2/Youtube/Kazale_IT/Projetos
+tree -I 'node*|*.js|*.map'
