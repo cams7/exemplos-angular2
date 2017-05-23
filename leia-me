@@ -26,11 +26,13 @@ npm install
 cd ~/Dev/Angular2/Youtube/Kazale_IT/Projetos/cursoangular2/aula1
 npm start
 #CTR-C
-cd ~/Dev/Angular2/Youtube/Kazale_IT/Projetos
 tree -I 'node*|*.js|*.map'
 
 Aula 02
 cd ~/Dev/Angular2/Youtube/Kazale_IT/Projetos/cursoangular2/aula2
 npm install
 npm start
+#CTR-C
 tree -I 'node*|*.js|*.map'
+
+Aula 03
