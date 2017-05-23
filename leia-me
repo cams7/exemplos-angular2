@@ -36,3 +36,15 @@ npm start
 tree -I 'node*|*.js|*.map'
 
 Aula 03
+cd ~/Dev/Angular2/Youtube/Kazale_IT/Projetos/cursoangular2/aula3
+npm install
+npm start
+#CTR-C
+tree -I 'node*|*.js|*.map'
+
+Aula 04
+cd ~/Dev/Angular2/Youtube/Kazale_IT/Projetos/cursoangular2/aula4
+npm install
+npm start
+#CTR-C
+tree -I 'node*|*.js|*.map'
