@@ -48,3 +48,11 @@ npm install
 npm start
 #CTR-C
 tree -I 'node*|*.js|*.map'
+
+Aula 05
+cd ~/Dev/Angular2/Youtube/Kazale_IT/Projetos/cursoangular2/aula5
+#npm install bootstrap --save
+npm install
+npm start
+#CTR-C
+tree -I 'node*|*.js|*.map'
