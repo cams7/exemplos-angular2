@@ -10,17 +10,27 @@ node -v
 npm -v
 
 sudo add-apt-repository ppa:webupd8team/sublime-text-3
-sudo apt-get update 
+sudo apt-get update
 sudo apt-get install sublime-text-installer
 
+sudo apt-get update
+sudo add-apt-repository ppa:webupd8team/atom -y && sudo apt-get update && sudo apt-get install atom -y
+#https://denisvuyka.github.io/2016/05/29/angular2-atom-quickstart.html
+
 #2. Configurando o NPM na aplicação
-cd ~/Dev/Angular2/Youtube/Kazale_IT/Projetos/cursoangular2/angular2-aula1
+cd ~/Dev/Angular2/Youtube/Kazale_IT/Projetos/cursoangular2/aula1
 #npm init -y
 npm install
 
 #7. Compilando e executando a aplicação
-cd ~/Dev/Angular2/Youtube/Kazale_IT/Projetos/cursoangular2/angular2-aula1
+cd ~/Dev/Angular2/Youtube/Kazale_IT/Projetos/cursoangular2/aula1
 npm start
 #CTR-C
 cd ~/Dev/Angular2/Youtube/Kazale_IT/Projetos
+tree -I 'node*|*.js|*.map'
+
+Aula 02
+cd ~/Dev/Angular2/Youtube/Kazale_IT/Projetos/cursoangular2/aula2
+npm install
+npm start
 tree -I 'node*|*.js|*.map'
