@@ -63,3 +63,12 @@ npm install
 npm start
 #CTR-C
 tree -I 'node*|*.js|*.map'
+
+
+Aula 07
+cd ~/Dev/Angular2/Youtube/Kazale_IT/Projetos/cursoangular2/aula7
+npm install
+npm run tsc
+npm start
+#CTR-C
+tree -I 'node*|*.js|*.map'
