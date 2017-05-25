@@ -1,0 +1,7 @@
+node_modules/
+typings/
+*.js
+!systemjs.config.js
+*.js.map
+.DS_Store
+api-aluno/
