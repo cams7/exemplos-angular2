@@ -1,5 +1,5 @@
-!config/
-!scaffolding/crud-script.js
+!*/config/*.js
+!*/scaffolding/crud-script.js
 !index.js
 !karma.conf.js
 !protractor.config.js

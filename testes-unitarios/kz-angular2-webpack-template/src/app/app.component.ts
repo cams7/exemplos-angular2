@@ -12,10 +12,11 @@ import { Component } from '@angular/core';
         <ul class="nav navbar-nav">
           <li><a routerLink="/">Inicial</a></li>
           <li><a routerLink="/demo">Demo</a></li>
+          <li><a routerLink="/clientes">Clientes</a></li>
         </ul>
       </div>
     </div>
-   </nav>  
+   </nav>
   <router-outlet></router-outlet>
   `,
 })

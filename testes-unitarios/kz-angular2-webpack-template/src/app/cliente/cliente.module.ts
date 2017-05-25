@@ -7,8 +7,9 @@
 
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
+import { ClienteIdPipe } from './';
 
-import { 
+import {
 	ClienteCadastrarComponent,
 	ClienteEditarComponent,
 	ClienteListarComponent,
@@ -19,7 +20,7 @@ import {
 import { SharedModule } from '../shared';
 
 @NgModule({
-	imports: [ 
+	imports: [
 		RouterModule,
 		SharedModule
 	],
@@ -27,7 +28,8 @@ import { SharedModule } from '../shared';
 		ClienteCadastrarComponent,
 		ClienteEditarComponent,
 		ClienteListarComponent,
-		ClienteVisualizarComponent
+		ClienteVisualizarComponent,
+		ClienteIdPipe
 	],
 	providers: [
 		ClienteService
