@@ -88,3 +88,42 @@ npm run tsc
 npm start
 #CTR-C
 tree -I 'node*|typings|*.js|*.map'
+
+Aula 10
+cd ~/Dev/Angular2/Youtube/Kazale_IT/Projetos/cursoangular2
+sudo npm install -g strongloop
+slc loopback
+cd api-aluno
+node .
+#Go to http://0.0.0.0:3000/explorer
+#CTR-C
+slc loopback:model
+node .
+#Go to http://0.0.0.0:3000/explorer
+#CTR-C
+slc loopback:acl
+slc loopback:acl
+node .
+#Go to http://0.0.0.0:3000/explorer
+
+curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{ \
+    "username": "cams7", \
+    "email": "ceanma@gmail.com", \
+    "password": "12345" \
+  }' 'http://0.0.0.0:3000/api/Users'
+
+curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{"username":"cams7", "password":"12345"}' 'http://0.0.0.0:3000/api/Users/login'
+
+curl -X PATCH --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{}' 'http://0.0.0.0:3000/api/Users/1?access_token=TOKEN'
+
+#CTR-C
+
+cd ~/Dev/Angular2/Youtube/Kazale_IT/Projetos/cursoangular2/aula10
+npm install
+npm run tsc
+npm start
+
+curl -X GET --header 'Accept: application/json' 'http://0.0.0.0:3000/api/alunos?access_token=TOKEN'
+
+#CTR-C
+tree -I 'node*|typings|*.js|*.map'
