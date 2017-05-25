@@ -1,0 +1,17 @@
+cd ~/Dev/Angular2/Youtube/Kazale_IT/Projetos/cursoangular2/testes-unitarios/kz-angular2-webpack-template
+
+#Aula 1
+npm install
+npm start
+#CTR-C
+#7. Entendendo a configuração dos testes no Angular 2
+npm test
+#CTR-C
+npm test-once
+#8. Criando o CRUD utilizado nos testes
+npm run crud
+npm start
+#CTR-C
+tree -I 'node*|*.js|*.map'
+
+#Aula 2

@@ -1,0 +1,6 @@
+!config/
+!scaffolding/crud-script.js
+!index.js
+!karma.conf.js
+!protractor.config.js
+!webpack.config.js
