@@ -16,3 +16,6 @@ tree -I 'node*|*.js|*.map'
 
 #Aula 2
 npm run test
+
+#Aula 3
+npm run test
