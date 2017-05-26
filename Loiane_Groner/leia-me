@@ -69,3 +69,14 @@ npm start
 #ionic Command with Snippets
 #vcode-icons
 #Atom One Dark (Theme)
+
+#10 - Curso Angular #09: Property Binding e Interpolação
+cd ~/Dev/Angular2/Cursos/Loiane_Groner
+ng new data-binding
+cd ~/Dev/Angular2/Cursos/Loiane_Groner/data-binding
+ng g c data-binding
+npm install ng2-bootstrap bootstrap --save
+
+npm start
+#Go to http://localhost:4200
+#CTR-C
