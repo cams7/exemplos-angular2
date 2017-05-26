@@ -50,3 +50,22 @@ ng g s cursos/cursos
 npm start
 #Go to http://localhost:4200
 #CTR-C
+
+#9 - Curso Angular #08: Dicas plugins Angular para Atom e VS Code
+#https://atom.io/packages
+#Instale no Atom os seguintes plugins:
+#angular-2-typeScript-snippets
+#atom-typescript
+#linter
+#file-icons
+#open-recent
+#pigments
+
+#Instale no VS Code os seguintes plugins:
+#Angular 2, 4 and upcoming latest TypeScript HTML Snippets
+#Angular v4 TypeScript Snippets
+#Auto Import
+#HTML Snippets
+#ionic Command with Snippets
+#vcode-icons
+#Atom One Dark (Theme)
