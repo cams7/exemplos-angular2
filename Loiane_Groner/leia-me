@@ -1,0 +1,25 @@
+#3 - Curso Angular #02: Ambiente de Desenvolvimento (Node.JS, TypeScript, Angular CLI)
+sudo apt update
+curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
+sudo apt install -y nodejs
+sudo npm install npm -g
+node -v
+npm -v
+
+sudo npm install -g typescript
+sudo npm install -g @angular/cli
+ng -v
+
+#4 - Curso Angular #03: Hello, World! Criando primeiro projeto e o primeiro Componente
+cd ~/Dev/Angular2/Cursos/Loiane_Groner
+ng new primeiro-projeto
+npm start
+#Go to http://localhost:4200
+#CTR-C
+
+npm test
+#CTR-C
+
+cd ~/Dev/Angular2/Cursos/Loiane_Groner/primeiro-projeto
+#Cria componente
+ng g c meu-primeiro
