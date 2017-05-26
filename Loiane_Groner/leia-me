@@ -37,3 +37,16 @@ ng g m cursos
 ng g c cursos
 #Cria o componente 'curso-detalhe'
 ng g c cursos/curso-detalhe
+
+npm start
+#Go to http://localhost:4200
+#CTR-C
+
+#8 - Curso Angular #07: Introdução aos Serviços e Injeção de Dependência (DI)
+cd ~/Dev/Angular2/Cursos/Loiane_Groner/primeiro-projeto
+#Cria o serviço 'cursos'
+ng g s cursos/cursos
+
+npm start
+#Go to http://localhost:4200
+#CTR-C

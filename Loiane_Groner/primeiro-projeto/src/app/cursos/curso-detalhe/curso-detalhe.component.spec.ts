@@ -1,10 +1,16 @@
+import { DebugElement } from '@angular/core';
+
+import { By } from '@angular/platform-browser';
+
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { CursoDetalheComponent } from './curso-detalhe.component';
 
-describe('CursoDetalheComponent', () => {
+describe('Detalhe do curso', () => {
   let component: CursoDetalheComponent;
   let fixture: ComponentFixture<CursoDetalheComponent>;
+  let de: DebugElement;
+  let el: HTMLElement;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
@@ -19,7 +25,14 @@ describe('CursoDetalheComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should be created', () => {
+  it('Deve verificar se o paragrafo foi definido corretamente', () => {
     expect(component).toBeTruthy();
+
+    fixture.detectChanges();
+
+    de = fixture.debugElement.query(By.css('p'));
+    el = de.nativeElement;
+
+    expect(el.textContent).toContain('Detalhes do curso');
   });
 });
