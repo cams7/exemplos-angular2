@@ -6,11 +6,15 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { DataBindingComponent } from './data-binding/data-binding.component';
 import { MeuFormModule } from './meu-form/meu-form.module';
+import { CursoComponent } from './curso/curso.component';
+import { ContadorComponent } from './contador/contador.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DataBindingComponent
+    DataBindingComponent,
+    CursoComponent,
+    ContadorComponent
   ],
   imports: [
     BrowserModule,

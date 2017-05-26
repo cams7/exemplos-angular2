@@ -3,6 +3,8 @@ import { FormsModule } from '@angular/forms';
 
 import { DataBindingComponent } from './data-binding.component';
 import { MeuFormComponent } from '../meu-form/meu-form.component';
+import { CursoComponent } from '../curso/curso.component';
+import { ContadorComponent } from '../contador/contador.component';
 
 describe('Teste DataBinding', () => {
   let component: DataBindingComponent;
@@ -12,7 +14,9 @@ describe('Teste DataBinding', () => {
     TestBed.configureTestingModule({
       declarations: [ 
         DataBindingComponent,
-        MeuFormComponent
+        MeuFormComponent,
+        CursoComponent,
+        ContadorComponent
       ],
       imports: [
         FormsModule
