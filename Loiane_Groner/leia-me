@@ -7,6 +7,7 @@ node -v
 npm -v
 
 sudo npm install -g typescript
+tsc -v
 sudo npm install -g @angular/cli
 ng -v
 
@@ -21,5 +22,18 @@ npm test
 #CTR-C
 
 cd ~/Dev/Angular2/Cursos/Loiane_Groner/primeiro-projeto
-#Cria componente
+#Cria o componente 'meu-primeiro'
 ng g c meu-primeiro
+
+npm start
+#Go to http://localhost:4200
+#CTR-C
+
+#6 - Curso Angular #05: Módulos (ngModule)
+cd ~/Dev/Angular2/Cursos/Loiane_Groner/primeiro-projeto
+#Cria o módulo 'cursos'
+ng g m cursos
+#Cria o componente 'cursos'
+ng g c cursos
+#Cria o componente 'curso-detalhe'
+ng g c cursos/curso-detalhe
