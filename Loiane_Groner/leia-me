@@ -80,3 +80,8 @@ npm install ng2-bootstrap bootstrap --save
 npm start
 #Go to http://localhost:4200
 #CTR-C
+
+#13 - Curso Angular #12: Two-way data binding 
+cd ~/Dev/Angular2/Cursos/Loiane_Groner/data-binding
+ng g m meu-form
+ng g c meu-form
