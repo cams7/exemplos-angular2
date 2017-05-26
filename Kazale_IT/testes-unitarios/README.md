@@ -4,7 +4,7 @@ Exemplos do [Curso de testes unitários com Angular 2](http://kazale.com/curso-t
 * Tecnologias: Angular 2, Node JS
 * Resumo: Testes unitários com Angular 2
 * Linguagens: TypeScript
-* Fonte: <https://github.com/cams7/exemplos-angular2-kazale>
+* Fonte: <https://github.com/cams7/exemplos-angular2/tree/master/Kazale_IT/testes-unitarios>
 * Linkedin: <https://br.linkedin.com/in/cams7>
 
 Qual a finalidade desses exemplos?
@@ -30,7 +30,7 @@ Exemplos do [Curso de testes unitários com Angular 2](http://kazale.com/curso-t
 -------------------
 01. [Entendendo o teste de software no Angular 2](http://kazale.com/curso-testes-unitarios-angular-2-parte-1/)
 ```sh
-cd ~/Dev/Angular2/Youtube/Kazale_IT/Projetos/cursoangular2/testes-unitarios/kz-angular2-webpack-template
+cd ~/Dev/Angular2/Cursos/Kazale_IT/testes-unitarios/kz-angular2-webpack-template
 
 npm install
 npm start
@@ -47,19 +47,19 @@ tree -I 'node*|*.js|*.map'
 ```
 02. [Testando filtros (pipes) e serviços (services)](http://kazale.com/curso-testes-unitarios-angular-2-parte-2)
 ```sh
-cd ~/Dev/Angular2/Youtube/Kazale_IT/Projetos/cursoangular2/testes-unitarios/kz-angular2-webpack-template
+cd ~/Dev/Angular2/Cursos/Kazale_IT/testes-unitarios/kz-angular2-webpack-template
 
 npm run test
 ```
 03. [Testando componentes (components) – parte 1](http://kazale.com/curso-testes-unitarios-angular-2-parte-3)
 ```sh
-cd ~/Dev/Angular2/Youtube/Kazale_IT/Projetos/cursoangular2/testes-unitarios/kz-angular2-webpack-template
+cd ~/Dev/Angular2/Cursos/Kazale_IT/testes-unitarios/kz-angular2-webpack-template
 
 npm run test
 ```
 04. [Testando componentes (components) – parte 2](http://kazale.com/curso-testes-unitarios-angular-2-parte-4)
 ```sh
-cd ~/Dev/Angular2/Youtube/Kazale_IT/Projetos/cursoangular2/testes-unitarios/kz-angular2-webpack-template
+cd ~/Dev/Angular2/Cursos/Kazale_IT/testes-unitarios/kz-angular2-webpack-template
 
 npm run test
 ```

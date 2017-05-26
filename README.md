@@ -28,6 +28,6 @@ Para testa todos os exemplos
 
 Exemplos de Angular 2
 -------------------
-01. [Curso básico de Angular 2](http://kazale.com/curso-basico-angular-2/)
-02. [Curso de testes unitários com Angular 2](http://kazale.com/curso-testes-unitarios-angular-2/)
+01. [Curso básico de Angular 2](http://kazale.com/curso-basico-angular-2/) - [Exemplos](https://github.com/cams7/exemplos-angular2/tree/master/Kazale_IT/basico)
+02. [Curso de testes unitários com Angular 2](http://kazale.com/curso-testes-unitarios-angular-2/) - [Exemplo](https://github.com/cams7/exemplos-angular2/tree/master/Kazale_IT/testes-unitarios/kz-angular2-webpack-template)
 03. [Angular 4 (e Angular 2)](https://www.youtube.com/playlist?list=PLGxZ4Rq3BOBoSRcKWEdQACbUCNWLczg2G)

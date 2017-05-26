@@ -4,7 +4,7 @@ Exemplos dos Cursos de Angular 2 do site [Kazale IT](http://kazale.com/)
 * Tecnologias: Angular 2, Node JS
 * Resumo: Cursos de Angular 2
 * Linguagens: TypeScript
-* Fonte: <https://github.com/cams7/exemplos-angular2-kazale>
+* Fonte: <https://github.com/cams7/exemplos-angular2/tree/master/Kazale_IT>
 * Linkedin: <https://br.linkedin.com/in/cams7>
 
 Qual a finalidade desses exemplos?
@@ -28,5 +28,5 @@ Para testa todos os exemplos
 
 Exemplos dos Cursos de Angular 2 do site [Kazale IT](http://kazale.com/)
 -------------------
-01. [Curso básico de Angular 2](http://kazale.com/curso-basico-angular-2/)
-02. [Curso de testes unitários com Angular 2](http://kazale.com/curso-testes-unitarios-angular-2/)
+01. [Curso básico de Angular 2](http://kazale.com/curso-basico-angular-2/) - [Exemplos](https://github.com/cams7/exemplos-angular2/tree/master/Kazale_IT/basico)
+02. [Curso de testes unitários com Angular 2](http://kazale.com/curso-testes-unitarios-angular-2/) - [Exemplo](https://github.com/cams7/exemplos-angular2/tree/master/Kazale_IT/testes-unitarios/kz-angular2-webpack-template)

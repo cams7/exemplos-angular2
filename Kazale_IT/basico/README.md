@@ -4,7 +4,7 @@ Exemplos do [Curso básico de Angular 2](http://kazale.com/curso-basico-angular-
 * Tecnologias: Angular 2, Node JS
 * Resumo: Curso básico de Angular 2
 * Linguagens: TypeScript
-* Fonte: <https://github.com/cams7/exemplos-angular2-kazale>
+* Fonte: <https://github.com/cams7/exemplos-angular2/tree/master/Kazale_IT/basico>
 * Linkedin: <https://br.linkedin.com/in/cams7>
 
 Qual a finalidade desses exemplos?
@@ -48,7 +48,7 @@ sudo add-apt-repository ppa:webupd8team/atom -y && sudo apt install atom -y
 ```
 ```sh
 #2. Configurando o NPM na aplicação
-cd ~/Dev/Angular2/Youtube/Kazale_IT/Projetos/cursoangular2/basico/aula1
+cd ~/Dev/Angular2/Cursos/Kazale_IT/basico/aula1
 #npm init -y
 npm install
 
@@ -60,7 +60,7 @@ tree -I 'node*|*.js|*.map'
 ```
 02. [Aula 2: Arquitetura](http://kazale.com/curso-angular-2-aula-2-arquitetura/)
 ```sh
-cd ~/Dev/Angular2/Youtube/Kazale_IT/Projetos/cursoangular2/basico/aula2
+cd ~/Dev/Angular2/Cursos/Kazale_IT/basico/aula2
 npm install
 npm run tsc
 npm start
@@ -69,7 +69,7 @@ tree -I 'node*|*.js|*.map'
 ```
 03. [Aula 3: Exibindo dados](http://kazale.com/curso-angular-2-aula-3-exibindo-dados/)
 ```sh
-cd ~/Dev/Angular2/Youtube/Kazale_IT/Projetos/cursoangular2/basico/aula3
+cd ~/Dev/Angular2/Cursos/Kazale_IT/basico/aula3
 npm install
 npm run tsc
 npm start
@@ -78,7 +78,7 @@ tree -I 'node*|*.js|*.map'
 ```
 04. [Aula 4: Filtros](http://kazale.com/curso-angular-2-aula-4-filtros/)
 ```sh
-cd ~/Dev/Angular2/Youtube/Kazale_IT/Projetos/cursoangular2/basico/aula4
+cd ~/Dev/Angular2/Cursos/Kazale_IT/basico/aula4
 npm install
 npm run tsc
 npm start
@@ -87,7 +87,7 @@ tree -I 'node*|*.js|*.map'
 ```
 05. [Aula 5: Formulário](http://kazale.com/curso-angular-2-aula-5-formulario/)
 ```sh
-cd ~/Dev/Angular2/Youtube/Kazale_IT/Projetos/cursoangular2/basico/aula5
+cd ~/Dev/Angular2/Cursos/Kazale_IT/basico/aula5
 #npm install bootstrap --save
 npm install
 npm run tsc
@@ -97,7 +97,7 @@ tree -I 'node*|*.js|*.map'
 ```
 06. [Aula 6: Formulário (Validação)](http://kazale.com/curso-angular-2-aula-6-formulario-validacao/)
 ```sh
-cd ~/Dev/Angular2/Youtube/Kazale_IT/Projetos/cursoangular2/basico/aula6
+cd ~/Dev/Angular2/Cursos/Kazale_IT/basico/aula6
 npm install
 npm run tsc
 npm start
@@ -106,7 +106,7 @@ tree -I 'node*|*.js|*.map'
 ```
 07. [Aula 7: Templates](http://kazale.com/curso-angular-2-aula-7-templates/)
 ```sh
-cd ~/Dev/Angular2/Youtube/Kazale_IT/Projetos/cursoangular2/basico/aula7
+cd ~/Dev/Angular2/Cursos/Kazale_IT/basico/aula7
 npm install
 npm run tsc
 npm start
@@ -115,7 +115,7 @@ tree -I 'node*|*.js|*.map'
 ```
 08. [Aula 8: Serviços](http://kazale.com/curso-angular-2-aula-8-servicos/)
 ```sh
-cd ~/Dev/Angular2/Youtube/Kazale_IT/Projetos/cursoangular2/basico/aula8
+cd ~/Dev/Angular2/Cursos/Kazale_IT/basico/aula8
 npm install
 npm run tsc
 npm start
@@ -124,7 +124,7 @@ tree -I 'node*|*.js|*.map'
 ```
 09. [Aula 9: Rotas e navegação](http://kazale.com/curso-angular-2-aula-9-rotas-e-navegacao/)
 ```sh
-cd ~/Dev/Angular2/Youtube/Kazale_IT/Projetos/cursoangular2/basico/aula9
+cd ~/Dev/Angular2/Cursos/Kazale_IT/basico/aula9
 npm install
 npm run tsc
 npm start
@@ -133,7 +133,7 @@ tree -I 'node*|typings|*.js|*.map'
 ```
 10. [Aula 10: Acesso HTTP a um servidor remoto](http://kazale.com/curso-angular-2-aula-10-acesso-http-um-servidor-remoto/)
 ```sh
-cd ~/Dev/Angular2/Youtube/Kazale_IT/Projetos/cursoangular2/basico
+cd ~/Dev/Angular2/Cursos/Kazale_IT/basico
 sudo npm install -g strongloop
 slc loopback
 cd api-aluno
@@ -162,7 +162,7 @@ curl -X PATCH --header 'Content-Type: application/json' --header 'Accept: applic
 #CTR-C
 ```
 ```sh
-cd ~/Dev/Angular2/Youtube/Kazale_IT/Projetos/cursoangular2/basico/aula10
+cd ~/Dev/Angular2/Cursos/Kazale_IT/basico/aula10
 npm install
 npm run tsc
 npm start
