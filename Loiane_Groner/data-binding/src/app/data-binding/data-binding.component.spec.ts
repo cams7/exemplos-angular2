@@ -12,15 +12,8 @@ describe('Teste DataBinding', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ 
-        DataBindingComponent,
-        MeuFormComponent,
-        CursoComponent,
-        ContadorComponent
-      ],
-      imports: [
-        FormsModule
-      ]
+      declarations: [ DataBindingComponent, MeuFormComponent, CursoComponent, ContadorComponent ],
+      imports: [ FormsModule ]
     })
     .compileComponents();
   }));

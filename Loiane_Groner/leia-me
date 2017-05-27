@@ -1,4 +1,4 @@
-#3 - Curso Angular #02: Ambiente de Desenvolvimento (Node.JS, TypeScript, Angular CLI)
+#Curso Angular #02: Ambiente de Desenvolvimento (Node.JS, TypeScript, Angular CLI)
 sudo apt update
 curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
 sudo apt install -y nodejs
@@ -11,7 +11,7 @@ tsc -v
 sudo npm install -g @angular/cli
 ng -v
 
-#4 - Curso Angular #03: Hello, World! Criando primeiro projeto e o primeiro Componente
+#Curso Angular #03: Hello, World! Criando primeiro projeto e o primeiro Componente
 cd ~/Dev/Angular2/Cursos/Loiane_Groner
 ng new primeiro-projeto
 npm start
@@ -29,7 +29,7 @@ npm start
 #Go to http://localhost:4200
 #CTR-C
 
-#6 - Curso Angular #05: Módulos (ngModule)
+#Curso Angular #05: Módulos (ngModule)
 cd ~/Dev/Angular2/Cursos/Loiane_Groner/primeiro-projeto
 #Cria o módulo 'cursos'
 ng g m cursos
@@ -42,7 +42,7 @@ npm start
 #Go to http://localhost:4200
 #CTR-C
 
-#8 - Curso Angular #07: Introdução aos Serviços e Injeção de Dependência (DI)
+#Curso Angular #07: Introdução aos Serviços e Injeção de Dependência (DI)
 cd ~/Dev/Angular2/Cursos/Loiane_Groner/primeiro-projeto
 #Cria o serviço 'cursos'
 ng g s cursos/cursos
@@ -51,7 +51,7 @@ npm start
 #Go to http://localhost:4200
 #CTR-C
 
-#9 - Curso Angular #08: Dicas plugins Angular para Atom e VS Code
+#Curso Angular #08: Dicas plugins Angular para Atom e VS Code
 #https://atom.io/packages
 #Instale no Atom os seguintes plugins:
 #angular-2-typeScript-snippets
@@ -70,7 +70,7 @@ npm start
 #vcode-icons
 #Atom One Dark (Theme)
 
-#10 - Curso Angular #09: Property Binding e Interpolação
+#Curso Angular #09: Property Binding e Interpolação
 cd ~/Dev/Angular2/Cursos/Loiane_Groner
 ng new data-binding
 cd ~/Dev/Angular2/Cursos/Loiane_Groner/data-binding
@@ -81,12 +81,81 @@ npm start
 #Go to http://localhost:4200
 #CTR-C
 
-#13 - Curso Angular #12: Two-way data binding 
+#Curso Angular #12: Two-way data binding 
 cd ~/Dev/Angular2/Cursos/Loiane_Groner/data-binding
 ng g m meu-form
 ng g c meu-form
 
-#14 - Curso Angular #13: Reusando Componentes com Input properties 
+npm start
+#Go to http://localhost:4200
+#CTR-C
+
+#Curso Angular #13: Reusando Componentes com Input properties 
 cd ~/Dev/Angular2/Cursos/Loiane_Groner/data-binding
 ng g c curso
 ng g c contador
+
+npm start
+#Go to http://localhost:4200
+#CTR-C
+
+#Curso Angular #15: Ciclo de vida do Componente
+cd ~/Dev/Angular2/Cursos/Loiane_Groner/data-binding
+ng g c ciclo
+
+npm start
+#Go to http://localhost:4200
+#CTR-C
+
+#Curso Angular #17: Angular CLI: Instalação e criação de projetos: ng new e ng serve
+cd ~/Dev/Angular2/Cursos/Loiane_Groner
+ng new diretivas
+
+#Curso Angular #18: Angular CLI: Criando components, services: ng generate
+cd ~/Dev/Angular2/Cursos/Loiane_Groner/diretivas
+ng g c diretiva-ngif
+ng g s diretiva-ngif/diretiva-ngif
+
+#ng g component meu-componente
+#ng g service meu-servico
+#ng g directive minha-diretiva
+#ng g pipe meu-pipe
+#ng g class minha-classe
+#ng g interface minha-interface
+#ng g enum meu-enum
+
+#Curso Angular #19: Angular CLI: Usando pré-processadores (Sass, Less, Stylus) 
+#npm new meu-projeto --style=sass
+#npm new meu-projeto --style=less
+#npm new meu-projeto --style=stylus
+
+#ng set defaults.styleExt scss
+#ng set defaults.styleExt less
+#ng set defaults.styleExt styl
+
+cd ~/Dev/Angular2/Cursos/Loiane_Groner/diretivas
+ng set defaults.styleExt scss
+
+#Curso Angular #20: Angular CLI: ng lint, ng test, ng e2e 
+cd ~/Dev/Angular2/Cursos/Loiane_Groner/diretivas
+ng lint
+ng test
+ng e2e
+
+#Curso Angular #22: Angular CLI: Gerando build de produção
+sudo npm install http-server -g
+
+cd ~/Dev/Angular2/Cursos/Loiane_Groner/primeiro-projeto
+ng build
+ng build --dev
+
+cd ~/Dev/Angular2/Cursos/Loiane_Groner/primeiro-projeto/dist
+http-server
+
+cd ~/Dev/Angular2/Cursos/Loiane_Groner/data-binding
+ng build --target=production --enviroment=prod
+ng build --prod --env=prod
+ng build --prod
+
+cd ~/Dev/Angular2/Cursos/Loiane_Groner/data-binding/dist
+http-server

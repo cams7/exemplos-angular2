@@ -1,7 +1,7 @@
 import { Component, OnInit, Input, EventEmitter, Output, ViewChild, ElementRef } from '@angular/core';
 
 @Component({
-  selector: 'contador',
+  selector: 'app-contador',
   templateUrl: './contador.component.html',
   styleUrls: ['./contador.component.css']
 })

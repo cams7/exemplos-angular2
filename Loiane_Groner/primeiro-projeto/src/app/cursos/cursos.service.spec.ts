@@ -14,7 +14,7 @@ describe('Suite de testes do serviço de cursos', () => {
   it('Deve listar todos os cursos', inject([CursosService], (service: CursosService) => {
     expect(service).toBeTruthy();
 
-    let cursos = service.getCursos();
+    const cursos = service.getCursos();
     expect(cursos.length).toEqual(3);
 
     const CURSOS: string[] = ['Java', 'Ext JS', 'Angular'];

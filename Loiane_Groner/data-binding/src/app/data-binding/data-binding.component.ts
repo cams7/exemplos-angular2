@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { MeuFormModule } from '../meu-form/meu-form.module'
 
 @Component({
-  selector: 'data-binding',
+  selector: 'app-data-binding',
   templateUrl: './data-binding.component.html',
   styleUrls: ['./data-binding.component.css']
 })

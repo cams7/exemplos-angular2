@@ -5,7 +5,7 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { MeuPrimeiroComponent } from './meu-primeiro/meu-primeiro.component';
-import { CursosModule } from './cursos/cursos.module'
+import { CursosModule } from './cursos/cursos.module';
 
 @NgModule({
   declarations: [

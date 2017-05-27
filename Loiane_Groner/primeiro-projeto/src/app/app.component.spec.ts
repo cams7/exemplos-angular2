@@ -2,7 +2,7 @@ import { TestBed, async } from '@angular/core/testing';
 
 import { AppComponent } from './app.component';
 import { MeuPrimeiroComponent } from './meu-primeiro/meu-primeiro.component';
-import { CursosModule } from './cursos/cursos.module'
+import { CursosModule } from './cursos/cursos.module';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {

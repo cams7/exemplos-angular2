@@ -2,17 +2,11 @@ import { DebugElement } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { By } from '@angular/platform-browser';
 
-import { 
-  async, 
-  ComponentFixture, 
-  TestBed, 
-  fakeAsync,
-  tick } from '@angular/core/testing';
+import { async, ComponentFixture, TestBed, fakeAsync, tick } from '@angular/core/testing';
 
 import { MeuFormComponent } from './meu-form.component';
 
 describe('Meu formulaŕio', () => {
-  
   let component: MeuFormComponent;
   let fixture: ComponentFixture<MeuFormComponent>;
 
@@ -21,9 +15,7 @@ describe('Meu formulaŕio', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ 
-        MeuFormComponent 
-      ],
+      declarations: [ MeuFormComponent ],
       imports: [
         FormsModule
       ]
@@ -37,21 +29,11 @@ describe('Meu formulaŕio', () => {
     fixture.detectChanges();
   });
 
-  it('should be created', fakeAsync(() => {
-    expect(component).toBeTruthy();
-
-    testeNome('nome1');
-    testeNome('nome2'); 
-    testeNome('nome3');
-    testeNome('nome4');  
-
-  }));
-
-  let testeNome =  (id:string) => {
+  const testeNome =  (id: string) => {
     fixture.detectChanges();
     tick();
 
-    let nome = fixture.debugElement.query(By.css('#' + id)).nativeElement;
+    const nome = fixture.debugElement.query(By.css('#' + id)).nativeElement;
     nome.value = id;
     nome.dispatchEvent(new Event('input'));
 
@@ -62,5 +44,15 @@ describe('Meu formulaŕio', () => {
     el = de.nativeElement;
 
     expect(el.textContent).toContain('Você digitou: ' + id);
-  }
+  };
+
+  it('should be created', fakeAsync(() => {
+    expect(component).toBeTruthy();
+
+    testeNome('nome1');
+    testeNome('nome2');
+    testeNome('nome3');
+    testeNome('nome4');
+  }));
+
 });

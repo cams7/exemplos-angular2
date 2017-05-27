@@ -6,5 +6,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+  title: string = 'Data binding';
+
+  valor: number = 5;
+
+  deletarCiclo: boolean = false;
+
+  mudarValor(){
+    this.valor++;
+  }
+
+  destruirClico(){
+    this.deletarCiclo = true;
+  }
 }

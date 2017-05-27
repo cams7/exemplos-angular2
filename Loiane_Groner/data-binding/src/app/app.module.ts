@@ -8,13 +8,15 @@ import { DataBindingComponent } from './data-binding/data-binding.component';
 import { MeuFormModule } from './meu-form/meu-form.module';
 import { CursoComponent } from './curso/curso.component';
 import { ContadorComponent } from './contador/contador.component';
+import { CicloComponent } from './ciclo/ciclo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DataBindingComponent,
     CursoComponent,
-    ContadorComponent
+    ContadorComponent,
+    CicloComponent
   ],
   imports: [
     BrowserModule,
