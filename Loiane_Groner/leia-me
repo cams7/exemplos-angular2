@@ -159,3 +159,25 @@ ng build --prod
 
 cd ~/Dev/Angular2/Cursos/Loiane_Groner/data-binding/dist
 http-server
+
+#Curso Angular #23: Angular CLI: instalando bibliotecas (bootstrap, jquery, materialize, lodash)
+cd ~/Dev/Angular2/Cursos/Loiane_Groner
+ng new angular-cli-libs-externas
+cd ~/Dev/Angular2/Cursos/Loiane_Groner/angular-cli-libs-externas
+
+#npm install bootstrap@next --save
+npm install bootstrap --save
+npm install jquery@^2.2.4 --save
+npm install materialize-css --save
+npm install angular2-materialize --save
+npm install lodash --save
+npm install @types/lodash --save
+
+#.angular-cli.json
+#"styles": ["../node_modules/bootstrap/dist/css/bootstrap.css","styles.css"],
+#"scripts": ["../node_modules/jquery/dist/jquery.js","../node_modules/bootstrap/dist/js/bootstrap.js",/*"../node_modules/tether/dist/js/tether.js",*/"../node_modules/materialize-css/dist/js/materialize.js"],
+
+ng build --prod
+http-server dist/
+#Go to http://localhost:8080
+
