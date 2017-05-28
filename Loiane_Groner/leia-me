@@ -193,3 +193,12 @@ npm install jquery@^2.2.4 --save
 ng g c diretiva-ngif
 ng g c diretiva-ngswitch
 ng g c diretiva-ngfor
+ng g c diretiva-ngclass
+ng g c diretiva-ngstyle
+ng g c operador-elvis
+ng g c exemplo-ng-content
+ng g d shared/fundo-amarelo
+ng g d shared/highlight-mouse
+ng g d shared/highlight
+ng g d shared/ng-else
+ng g c diretivas-customizadas
