@@ -216,4 +216,16 @@ ng g m criar-curso
 ng g c receber-curso-criado
 ng g s shared/Log
 
+#Curso Angular #43: Pipes (usando pipes, parâmetros e pipes aninhados)
+cd ~/Dev/Angular2/Cursos/Loiane_Groner
+ng new pipes
+cd ~/Dev/Angular2/Cursos/Loiane_Groner/pipes
+
+ng g c exemplos-pipe
+ng g p camel-case
+ng g s settings
+ng g p filtro-array
+ng g p filtro-array-impuro
+
+
 
