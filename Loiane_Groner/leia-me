@@ -227,5 +227,55 @@ ng g s settings
 ng g p filtro-array
 ng g p filtro-array-impuro
 
+#Curso Angular 2 #49: Rotas: Introdução 
+cd ~/Dev/Angular2/Cursos/Loiane_Groner
+ng new rotas
+cd ~/Dev/Angular2/Cursos/Loiane_Groner/rotas
 
+npm install jquery --save
+npm install bootstrap --save
+npm install materialize-css --save
+npm install angular2-materialize --save
+
+#Change 'rotas/.angular-cli.json' file
+#"styles": ["../node_modules/bootstrap/dist/css/bootstrap.css","styles.css"],
+#"scripts": ["../node_modules/jquery/dist/jquery.js","../node_modules/bootstrap/dist/js/bootstrap.js","../node_modules/materialize-css/dist/js/materialize.js"],
+
+#Add in 'rotas/src/styles.css' file
+#@import "../node_modules/materialize-css/dist/css/materialize.css"
+
+ng g c home
+
+ng g c login
+ng g class login/usuario
+ng g s login/auth
+
+ng g m cursos
+ng g c cursos
+ng g c cursos/curso-detalhe
+ng g s cursos/cursos
+ng g c cursos/curso-nao-encontrado
+
+ng g m alunos
+ng g c alunos
+ng g c alunos/aluno-detalhe
+ng g c alunos/aluno-form
+ng g s alunos/alunos
+ng g class alunos/aluno
+
+mkdir src/app/guards
+ng g s guards/auth-guard
+ng g s guards/cursos-guard
+ng g s guards/alunos-guard
+ng g interface guards/iform-candeactivate
+ng g s guards/alunos-deactivate-guard
+
+mkdir src/app/alunos/guards
+ng g s alunos/guards/aluno-detalhe-resolver
+
+ng g c pagina-nao-encontrada
+
+ng build --prod
+http-server dist/
+#Go to http://localhost:8080
 
